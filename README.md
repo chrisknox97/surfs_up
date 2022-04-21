@@ -60,8 +60,8 @@ Having written the above Python script, we can now clearly see the differences i
  
 * Standard Deviation
 
-        Because December has a significantly lower Minimum Temperature, yet only a marginally lower Maximum Temperature, its standard deviation (3.75) is       
-        understandably greater than that for June (3.26). 
+        Because December has a significantly lower Minimum Temperature, yet only a marginally lower Maximum Temperature, 
+        its standard deviation (3.75) is understandably greater than that for June (3.26). 
 
 ## Summary
 
