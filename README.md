@@ -10,14 +10,14 @@
 
 To conduct this comparative analysis, we first had to write a two queries, one each to filter for the specified months (June, December) that we would convert into a list. 
 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_List.png" width ="500" height="150">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_List.png" width ="500" height="125">
 
 * June Query
     
         june_temps = session.query(Measurement.date, Measurement.tobs). \
         filter(extract('month', Measurement.date) ==6).all()
         
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_List.png" width ="500" height="150">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_List.png" width ="500" height="125">
     
 * December Query
 
