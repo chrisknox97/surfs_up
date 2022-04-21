@@ -44,6 +44,24 @@ Finally, from these DataFrames, we can retrieve summary statistics for each mont
 
 ### Results
 
+Having written the above Python script, we can now clearly see the differences in temperature between June and December. These findings are listed below:
+
+* Mean Temperature
+
+        The Mean Temperature for June (74.94) was higher than that of December (71.04). 
+        
+* Minimum Temperature
+
+        The Minimal Temperature for December (56) was eight degrees lower than June (64). 
+ 
+* Maximum Temperature
+
+        Yet, the Maximum Temperature for December (83) was only two degrees lower than June (85). 
+ 
+* Standard Deviation
+
+        Because December has a significantly lower Minimum Temperature, yet only a marginally lower Maximum Temperature, its standard deviation (3.75) is       
+        understandably greater than that for June (3.26). 
 
 ## Summary
 
