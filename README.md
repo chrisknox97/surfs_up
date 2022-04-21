@@ -94,14 +94,13 @@ While this analysis is a good start in understanding differences in June and Dec
         june_prcp = session.query(Measurement.date, Measurement.prcp).\
         filter(extract('month', Measurement.date) ==6)
         
-* June DataFrame
+* June DataFrame & Summary Statistics
         
         june_prcp_df = pd.DataFrame(results, columns =('Date', 'June Prcp'))
         june_daily_prcp_df = results_df.set_index('Date')
         
- * June Summary Statistics
-    
         june_daily_prcp_df.describe()
+        
        
 <img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_DF.png" width ="200" height="300"> 
 <img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_Stats.png" width ="200" height="300">
@@ -116,7 +115,5 @@ While this analysis is a good start in understanding differences in June and Dec
          december_prcp_df = pd.DataFrame(results, columns =('Date', 'Dec Prcp'))
          december_daily_prcp_df = results_df.set_index('Date')
          
-* December Summary Statistics
-        
          december_daily_prcp_df.describe()
         
