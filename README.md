@@ -86,12 +86,34 @@ The DataFrame statistics summaries help visually demonstrate that the month of J
 
 While this analysis is a good start in understanding differences in June and December weather, additional queries could be written to garner more insight. For example, if we were interested in finding the differences in June and December precipitation, we could write the following queries. 
  
-* June Precipitation Query
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_PRCP_DF.png" width ="200" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_DF.png" width ="200" height="300">
+
+* June Precipitation Query 
 
         june_prcp = session.query(Measurement.date, Measurement.prcp).\
         filter(extract('month', Measurement.date) ==6)
+        
+* June DataFrame
+        
+        june_prcp_df = pd.DataFrame(results, columns =('Date', 'June Prcp'))
+        june_daily_prcp_df = results_df.set_index('Date')
+        
+ * June Summary Statistics
+    
+        june_daily_prcp_df.describe()
 
 * December Precipitation Query
 
         december_prcp = session.query(Measurement.date, Measurement.prcp).\
         filter(extract('month', Measurement.date) ==12)
+        
+* December DataFrame & Summary Statistics
+
+         december_prcp_df = pd.DataFrame(results, columns =('Date', 'Dec Prcp'))
+         december_daily_prcp_df = results_df.set_index('Date')
+         
+* December Summary Statistics
+        
+         december_daily_prcp_df.describe()
+        
