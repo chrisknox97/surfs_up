@@ -37,8 +37,8 @@ From here, the list is converted into a Pandas DataFrame, denoting the columns w
     
 Finally, from these DataFrames, we can retrieve summary statistics for each month. 
 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_Stats.png" height="300">
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_Stats.png" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_Stats.png" width ="200" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_Stats.png" width ="200" height="300">
 
 * June Summary Statistics
 
