@@ -48,6 +48,9 @@ Finally, from these DataFrames, we can retrieve summary statistics for each mont
 
         december_daily_temps_df.describe()
 
+
+
+
 ### Results
 
 Having written the above Python script, we can now clearly see the differences in temperature between June and December. These findings are listed below:
