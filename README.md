@@ -67,6 +67,6 @@ Having written the above Python script, we can now clearly see the differences i
 
 ### Conclusion
 
-The aforementioned DataFrame statistics summaries help visually demonstrate that the month of June typically has higher temperatures than December. and that due to December's higher standard deviation, that month's temperature can vary more starkly. Both of these conclusions align with the fact that the Summer season begins in late June, lending itself to warmer temperatures; while the Winter season starts in late December contributing to its increasingly lower temperatures. 
+The aforementioned DataFrame statistics summaries help visually demonstrate that the month of June typically has higher temperatures than December; and that due to December's higher standard deviation, that month's temperature can vary more starkly. Both of these conclusions align with the fact that the Summer season begins in late June, lending itself to warmer temperatures; while the Winter season starts in late December contributing to its increasingly lower temperatures. 
 
 ### Additional Queries
