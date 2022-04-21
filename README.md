@@ -22,8 +22,8 @@ To conduct this comparative analysis, we first had to write a two queries, one e
     
 From here, the list is converted into a Pandas DataFrame, denoting the columns with their respective ``Date`` and ``Month Temp`` labels, and dropping the unnecessary index column. 
 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_DF.png" width ="100" height="300">
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_DF.png" width ="100" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_DF.png" width ="200" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_DF.png" width ="200" height="300">
 
 * June DataFrame
 
