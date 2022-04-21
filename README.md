@@ -35,10 +35,10 @@ From here, the list is converted into a Pandas DataFrame, denoting the columns w
         december_temps_df = pd.DataFrame(december_temps, columns = ('Date', 'June Temps'))
         december_daily_temps_df = december_temps_df.set_index('Date')
     
-Finally, from these DataFrames, we can retrieve summary statistics for each month. 
-
 <img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_Stats.png" width ="200" height="300">
 <img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_Stats.png" width ="200" height="300">
+
+Finally, from these DataFrames, we can retrieve summary statistics for each month. 
 
 * June Summary Statistics
 
