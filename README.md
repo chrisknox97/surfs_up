@@ -86,8 +86,8 @@ The DataFrame statistics summaries help visually demonstrate that the month of J
 
 While this analysis is a good start in understanding differences in June and December weather, additional queries could be written to garner more insight. For example, if we were interested in finding the differences in June and December precipitation, we could write the following queries. 
  
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_PRCP_DF.png" width ="200" height="300">
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_PRCP_Stats.png" width ="200" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_PRCP_DF.png" width ="200" height="310">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_PRCP_Stats.png" width ="200" height="310">
 
 * June Precipitation Query 
 
@@ -102,8 +102,8 @@ While this analysis is a good start in understanding differences in June and Dec
         june_daily_prcp_df.describe()
         
        
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_DF.png" width ="200" height="300"> 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_Stats.png" width ="200" height="300">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_DF.png" width ="200" height="310"> 
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_PRCP_Stats.png" width ="200" height="310">
 
 * December Precipitation Query
 
