@@ -70,3 +70,15 @@ Having written the above Python script, we can now clearly see the differences i
 The aforementioned DataFrame statistics summaries help visually demonstrate that the month of June typically has higher temperatures than December; and that due to December's higher standard deviation, that month's temperature can vary more starkly. Both of these conclusions align with the fact that the Summer season begins in late June, lending itself to warmer temperatures; while the Winter season starts in late December contributing to its increasingly lower temperatures. 
 
 ### Additional Queries
+
+While, this analysis is a good start in understanding differences in June and December weather, additional querries could be written to garner more insight. For example, if we were interested in finding the differnces in June and December percipitation, we could write the following queries. 
+ 
+* June Percipitation Query
+
+        june_prcp = session.query(Measurement.date, Measurement.prcp).\
+        filter(extract('month', Measurement.date) ==6)
+
+* December Percipitation Query
+
+        december_prcp = session.query(Measurement.date, Measurement.prcp).\
+        filter(extract('month', Measurement.date) ==12)
