@@ -22,8 +22,8 @@ To conduct this comparative analysis, we first had to write a two queries, one e
     
 From here, the list is converted into a Pandas DataFrame, denoting the columns with their respective ``Date`` and ``Month Temp`` labels, and dropping the unnecessary index column. 
 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_DF.png" height="290">
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_DF.png" height="290">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_DF.png" height="200">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_DF.png" height="200">
 
 * June DataFrame
 
@@ -37,8 +37,8 @@ From here, the list is converted into a Pandas DataFrame, denoting the columns w
     
 Finally, from these DataFrames, we can retrieve summary statistics for each month. 
 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_Stats.png" height="290">
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_Stats.png" height="290">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_Stats.png" height="200">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_Stats.png" height="200">
 
 * June Summary Statistics
 
