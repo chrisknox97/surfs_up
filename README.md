@@ -8,7 +8,7 @@
 
 ### Process
 
-<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_List.png" width ="300" height="50">
+<img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/June_List.png" width ="400" height="150">
 <img align="right" src="https://github.com/chrisknox97/surfs_up/blob/main/PNGS/Dec_List.png" width ="300" height="50">
 
 To conduct this comparative analysis, we first had to write a two queries, one each to filter for the specified months (June, December) that we would convert into a list. 
