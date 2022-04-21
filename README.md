@@ -52,7 +52,7 @@ Having written the above Python script, we can now clearly see the differences i
         
 * Minimum Temperature
 
-        The Minimal Temperature for December (56) was eight degrees lower than June (64). 
+        The Minimum Temperature for December (56) was eight degrees lower than June (64). 
  
 * Maximum Temperature
 
@@ -63,6 +63,10 @@ Having written the above Python script, we can now clearly see the differences i
         Because December has a significantly lower Minimum Temperature, yet only a marginally lower Maximum Temperature, 
         its standard deviation (3.75) is understandably greater than that for June (3.26). 
 
-## Summary
+## A Summary of Seasonal Differences
 
-###
+### Conclusion
+
+The aforementioned DataFrame statistics summaries help visually demonstrate that the month of June typically has higher temperatures than December. and that due to December's higher standard deviation, that month's temperature can vary more starkly. Both of these conclusions align with the fact that the Summer season begins in late June, lending itself to warmer temperatures; while the Winter season starts in late December contributing to its increasingly lower temperatures. 
+
+### Additional Queries
